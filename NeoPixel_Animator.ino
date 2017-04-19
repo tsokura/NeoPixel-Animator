@@ -16,7 +16,7 @@ Adafruit_NeoPixel pixels1 = Adafruit_NeoPixel(NUMPIXELS, 6, NEO_GRBW + NEO_KHZ80
 Adafruit_NeoPixel pixels2 = Adafruit_NeoPixel(NUMPIXELS, 7, NEO_GRBW + NEO_KHZ800);
 
 int delayval = 200 ; // default delay between animation frames
-int woffset = 5; 
+int woffset = 5;  // maximum offset 16 = zero offset
 int boffset = 0;
 int p[] = {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15};
 
